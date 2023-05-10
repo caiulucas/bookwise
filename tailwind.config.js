@@ -23,7 +23,7 @@ module.exports = {
         18: '4.5rem'
       },
       borderRadius: {
-        xl: '10px'
+        '2lg': '10px'
       }
     },
     colors: {
@@ -31,12 +31,14 @@ module.exports = {
       black: '#000000',
 
       green: {
+        50: '#7FD1CC',
         100: '#50B2C0',
         200: '#255D6A',
         300: '#0A313C'
       },
 
       purple: {
+        50: '#9694F5',
         100: '#8381D9',
         200: '#2A2879'
       },
@@ -50,10 +52,7 @@ module.exports = {
         600: '#252D4A',
         700: '#181C2A',
         800: '#0E1116'
-      },
-
-      'gradient-vertical': 'linear-gradient(180deg, #7FD1CC 0%, #9694F5 100%)',
-      'gradient-horizontal': 'linear-gradient(90deg, #7FD1CC 0%, #9694F5 100%)'
+      }
     },
     fontFamily: {
       sans: ['Nunito', 'sans-serif']

@@ -1,3 +1,6 @@
 {
-  "extends": ["next/core-web-vitals", "eslint-config-terralab"]
+  "extends": ["next/core-web-vitals", "eslint-config-terralab"],
+  "rules": {
+    "jsx-a11y/anchor-has-content": "off"
+  }
 }

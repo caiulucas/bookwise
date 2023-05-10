@@ -1,5 +1,8 @@
 import { Nunito } from 'next/font/google';
 import './globals.css';
+import Image from 'next/image';
+
+import { MenuOption } from '@/components/MenuOption';
 
 const nunito = Nunito({ subsets: ['latin'] });
 
@@ -15,7 +18,20 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body className={nunito.className}>{children}</body>
+      <body className={`${nunito.className} flex`}>
+        <aside
+          className="w-58 h-screen rounded-xl px-12 py-10 flex flex-col
+          items-center bg-[url('/menu-bg.webp')]"
+        >
+          <Image src="/logo.svg" alt="BookWise" width={126} height={32} />
+          <nav className="mt-16 flex flex-col gap-4">
+            <MenuOption title="Inicio" icon="chartLineUp" href="" selected />
+            <MenuOption title="Explorar" icon="binoculars" href="" />
+          </nav>
+        </aside>
+        {children}
+      </body>
+      <script src="https://unpkg.com/@phosphor-icons/web" async />
     </html>
   );
 }
