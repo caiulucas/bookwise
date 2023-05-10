@@ -16,14 +16,19 @@ module.exports = {
         relaxed: 1.6
       },
       width: {
+        26: '6.75rem',
         58: '14.5rem',
         88: '23.25rem'
       },
       height: {
+        18: '4.5rem',
+        menu: 'calc(100vh - 2rem)'
+      },
+      padding: {
         18: '4.5rem'
       },
       borderRadius: {
-        '2lg': '10px'
+        '2lg': '0.625rem'
       }
     },
     colors: {
