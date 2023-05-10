@@ -1,14 +1,9 @@
-'use client';
 import Link from 'next/link';
-import { Binoculars, ChartLineUp } from 'phosphor-react';
 
-const icons = {
-  binoculars: <Binoculars className="w-6 h-6" />,
-  chartLineUp: <ChartLineUp className="w-6 h-6" />
-};
+import Icon, { IconName } from './Icon';
 
 interface MenuOptionProps {
-  icon: keyof typeof icons;
+  icon: IconName;
   href: string;
   title: string;
   selected?: boolean;
@@ -26,7 +21,7 @@ export function MenuOption({ href, title, icon, selected }: MenuOptionProps) {
         selected ? selectedLinkStyle : 'text-gray-400'
       }`}
     >
-      {icons[icon]}
+      <Icon name={icon} className="w-6 h-6" />
       <span>{title}</span>
     </Link>
   );
