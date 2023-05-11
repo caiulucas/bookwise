@@ -27,7 +27,10 @@ export default function RootLayout({
           <nav className="mt-16 flex flex-col gap-4">
             <MenuOption title="Início" icon="chart-line-up" href="/" selected />
             <MenuOption title="Explorar" icon="binoculars" href="/explore" />
+            <MenuOption title="Perfil" icon="user" href="/profile" />
           </nav>
+
+          <div></div>
         </aside>
         {children}
       </body>
