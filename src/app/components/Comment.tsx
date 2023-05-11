@@ -1,6 +1,7 @@
 import Image from 'next/image';
 
 import bookImg from '@/assets/Book.jpg';
+import { AuthorName } from '@/components/AuthorName';
 import { Avatar } from '@/components/Avatar';
 import { Rating } from '@/components/Rating';
 
@@ -29,7 +30,7 @@ export function Comment() {
         <div className="flex flex-col gap-5">
           <div>
             <h4>O Hobbit</h4>
-            <span className="text-gray-400 text-sm">J.R.R Tolkien</span>
+            <AuthorName>J.R.R Tolkien</AuthorName>
           </div>
 
           <p>
