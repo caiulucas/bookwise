@@ -18,6 +18,7 @@ module.exports = {
       width: {
         26: '6.75rem',
         58: '14.5rem',
+        81: '20.25rem',
         88: '23.25rem'
       },
       height: {
@@ -29,6 +30,9 @@ module.exports = {
       },
       borderRadius: {
         '2lg': '0.625rem'
+      },
+      gap: {
+        16: '4rem'
       }
     },
     colors: {
