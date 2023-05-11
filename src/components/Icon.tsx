@@ -2,13 +2,17 @@
 
 import {
   Binoculars,
+  CaretRight,
   ChartLineUp,
   IconProps as PhosphorIconProps,
-  Star
+  Star,
+  User
 } from 'phosphor-react';
 
 const icons = {
   'chart-line-up': ChartLineUp,
+  'caret-right': CaretRight,
+  user: User,
   binoculars: Binoculars,
   star: Star
 };
