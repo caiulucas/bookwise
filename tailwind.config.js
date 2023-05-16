@@ -32,12 +32,14 @@ module.exports = {
         '2lg': '0.625rem'
       },
       gap: {
-        16: '4rem'
+        16: '4rem',
+        33: '8.125rem'
       }
     },
     colors: {
       white: '#FFFFFF',
       black: '#000000',
+      transparent: 'transparent',
 
       green: {
         50: '#7FD1CC',
