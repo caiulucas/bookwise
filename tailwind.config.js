@@ -23,12 +23,14 @@ module.exports = {
       },
       height: {
         18: '4.5rem',
+        62: '15.125rem',
         menu: 'calc(100vh - 2rem)'
       },
       padding: {
         18: '4.5rem'
       },
       borderRadius: {
+        sm: '0.25rem',
         '2lg': '0.625rem'
       },
       gap: {
@@ -39,6 +41,7 @@ module.exports = {
     colors: {
       white: '#FFFFFF',
       black: '#000000',
+      overlay: '#000000a6',
       transparent: 'transparent',
 
       green: {
