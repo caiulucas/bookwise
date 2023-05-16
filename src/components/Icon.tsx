@@ -4,6 +4,7 @@ import {
   Binoculars,
   CaretRight,
   ChartLineUp,
+  MagnifyingGlass,
   IconProps as PhosphorIconProps,
   Star,
   User
@@ -12,6 +13,7 @@ import {
 const icons = {
   'chart-line-up': ChartLineUp,
   'caret-right': CaretRight,
+  'magnifying-glass': MagnifyingGlass,
   user: User,
   binoculars: Binoculars,
   star: Star
