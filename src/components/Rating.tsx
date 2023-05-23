@@ -1,13 +1,14 @@
 import Icon from './Icon';
 
 interface RatingProps {
-  size?: 'sm' | 'md';
+  size?: 'sm' | 'md' | 'lg';
 }
 
 export function Rating({ size = 'sm' }: RatingProps) {
   const sizeStyle = {
     sm: 'w-4 h-4',
-    md: 'w-5 h-5'
+    md: 'w-5 h-5',
+    lg: 'w-7 h-7'
   };
 
   return (
