@@ -2,6 +2,7 @@ import Icon from '@/components/Icon';
 
 import { BookDetail } from './BookDetail';
 import { Comment } from './Comment';
+import { NewComment } from './NewComment';
 
 interface SidePanelMenuProps {
   onClose: () => void;
@@ -24,6 +25,9 @@ export function SidePanelMenu({ onClose }: SidePanelMenuProps) {
       </div>
 
       <ul className="flex flex-col gap-3">
+        <li>
+          <NewComment />
+        </li>
         <li>
           <Comment />
         </li>
