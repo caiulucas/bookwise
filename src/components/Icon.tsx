@@ -6,6 +6,7 @@ import {
   BookmarkSimple,
   CaretRight,
   ChartLineUp,
+  Check,
   MagnifyingGlass,
   IconProps as PhosphorIconProps,
   Star,
@@ -14,13 +15,14 @@ import {
 } from 'phosphor-react';
 
 const icons = {
-  'chart-line-up': ChartLineUp,
-  'caret-right': CaretRight,
-  'magnifying-glass': MagnifyingGlass,
-  'book-open': BookOpen,
-  bookmark: BookmarkSimple,
-  user: User,
   binoculars: Binoculars,
+  bookmark: BookmarkSimple,
+  'book-open': BookOpen,
+  'caret-right': CaretRight,
+  'chart-line-up': ChartLineUp,
+  check: Check,
+  'magnifying-glass': MagnifyingGlass,
+  user: User,
   star: Star,
   x: X
 };
