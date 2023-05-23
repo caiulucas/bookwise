@@ -23,6 +23,7 @@ module.exports = {
       },
       height: {
         18: '4.5rem',
+        41: '10.25rem',
         62: '15.125rem',
         menu: 'calc(100vh - 2rem)'
       },
