@@ -27,4 +27,17 @@
   h3 {
     @apply text-lg;
   }
+
+  *::-webkit-scrollbar {
+    @apply w-2;
+  }
+
+  *::-webkit-scrollbar-track {
+    @apply bg-gray-700;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    @apply bg-gray-600;
+    @apply rounded-full;
+  }
 }
