@@ -3,15 +3,12 @@ import Icon from '@/components/Icon';
 import { BookCard } from './components/BookCard';
 import { Comment } from './components/Comment';
 import { LastBook } from './components/LastBook';
+import { PageTitle } from './components/PageTitle';
 
 export default function Home() {
   return (
     <main className="container px-24 py-18">
-      <div className="flex items-center gap-3">
-        <Icon name="chart-line-up" className="w-8 h-8 text-green-100" />
-        <h1>Início</h1>
-      </div>
-
+      <PageTitle icon="chart-line-up">Início</PageTitle>
       <div className="flex gap-16 mt-10">
         <div className="flex flex-col gap-10">
           <section>
