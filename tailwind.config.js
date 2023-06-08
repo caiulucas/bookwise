@@ -16,10 +16,14 @@ module.exports = {
         relaxed: 1.6
       },
       width: {
+        18: '4.5rem',
         26: '6.75rem',
         58: '14.5rem',
         81: '20.25rem',
         88: '23.25rem'
+      },
+      maxWidth: {
+        xxs: '19.25rem'
       },
       height: {
         18: '4.5rem',
