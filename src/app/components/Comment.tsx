@@ -6,6 +6,7 @@ import { Avatar } from '@/components/Avatar';
 import { Rating } from '@/components/Rating';
 
 import { Box } from './Box';
+
 export function Comment() {
   return (
     <Box>
